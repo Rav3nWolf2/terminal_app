@@ -5,4 +5,5 @@ class Question
         @answer_choices = answer_choices    #hash of answer choices ({a:"answerA", b:"answerB"})
         @correct_answer = correct_answer    #symbol for key in answer choices
     end
+
 end
