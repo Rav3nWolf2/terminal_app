@@ -33,13 +33,12 @@ class TerminalApp
     end
     def print_results
 
-        case 
-        when @quiz.total_score >5
+        if @quiz.total_score > 20            
             puts "great Job!"
-        when @quiz.total_score <5
+        elsif @quiz.total_score < 17
             puts "not good enough!"
         else 
-            puts  "your score is 5! you're perfectly average!"    
+            puts  "your score is 20! you're perfectly average!"    
         end
     end
 end
