@@ -31,7 +31,7 @@ class TerminalApp
             ask_question(question)
         end
     end
-    def print_results
+    def print_results # doesnt output score 
 
         if @quiz.total_score > 20            
             puts "great Job!"
