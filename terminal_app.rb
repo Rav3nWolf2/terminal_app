@@ -1,6 +1,7 @@
 require_relative 'quiz'
 
 class TerminalApp
+    attr_reader :total_score
     def initialize 
         @quiz = Quiz.new 
         @total_score = 0 
@@ -44,7 +45,7 @@ class TerminalApp
 end
 terminal_app = TerminalApp.new
 terminal_app.run
-puts "your score is #{@total_score}"
+puts "your score is #{terminal_app.total_score}"
 terminal_app.print_results
 
 
