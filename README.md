@@ -16,6 +16,12 @@ The purpose of the app is to entertain the user and test their pop culture knowe
 # Instructions for use:
 
 Final app
+![code for player and score](./docs/player-and-score.png)
+![final questions in array](./docs/final-questions.png)
+![terminal app](./docs/terminal_app.png)
+![output of score](./docs/out-put-score.png)
+![code for player and score](./docs/player-and-score.png)
+
 
 #design details
 # Brainstorming
@@ -112,8 +118,8 @@ We settled on a Game briefly considering a hangman app and noughts and crosses a
 app user workflow 
 project timeline 
 # Trello 
-![](./docs/trello-brainstorm.png)
-![](./docs/comunication-trello.png)
+![brainstorm in trello](./docs/trello-brainstorm.png)
+![comments in trello](./docs/comunication-trello.png)
 
 
 
