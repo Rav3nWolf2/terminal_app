@@ -3,10 +3,8 @@ require_relative "question"
 class Quiz
 
     attr_reader :questions
-    attr_accessor :total_score
     def initialize(filename='')
         @questions = []
-        @total_score = 0
     
         if filename.length > 0 
             #read questions from file
@@ -15,7 +13,11 @@ class Quiz
         end
     
     end
+
+    # For the MVP, only have one Quiz category, but could define other question
+    # methods for different categories, and have category passed to the initialize
     def set_default_questions # add your questions here and it will automatically update to the terminal app 
+
         @questions << Question.new("Luke Skywalker is from what franchise?", {a: "Star trek", b: "Star wars", c: "Trek wars"}, :b )
         @questions << Question.new("Who said?, you're a wizard Harry?", {a: "Dolores Umbride", b: "harry Potter", c: "Rubeus Hagrid"}, :c )
         @questions << Question.new("Judy Garland starred in this 1939 movie", {a: "The wizard of OZ", b: "The Meg", c: "Annie"}, :a )
@@ -36,15 +38,6 @@ class Quiz
         @questions << Question.new("Sub zero is from which 90’s fighting game? ", {a: "Mortal Combat", b: "Doom", c: "Strike Zero"}, :a )
         @questions << Question.new("Bowser, Wario and Luigi are from which famous game? ", {a: "Spyro ", b: "Mario Party", c: "Lemmings"}, :b )
         @questions << Question.new("which console came first? ", {a: "Xbox", b: "Game cube", c: "Atari"}, :c )
-
-    
-    
-    
-    
-    
-    
-    
-    
     end
 end
 
