@@ -43,6 +43,7 @@ class TerminalApp
             ask_question(0,question)
         end
     end
+  
     def print_results
         # In the MVP we only have one player but if we had more, we would print the results
         # for each player
