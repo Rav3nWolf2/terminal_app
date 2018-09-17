@@ -1,4 +1,4 @@
-# trivia_app
+# Trivia_app
 
 ### A pop culture themed trivia quiz made up of 20 questions with 4 topics: gaming, movies, television and music. 5 questions each topic displayed in a random order with various degrees of difficulty.
 
