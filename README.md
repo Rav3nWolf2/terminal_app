@@ -112,8 +112,8 @@ We settled on a Game briefly considering a hangman app and noughts and crosses a
 app user workflow 
 project timeline 
 # Trello 
-    ![](docs/trello-brainstorm.png)
-    ![](docs/comunication-trello.png)
+![](./docs/trello-brainstorm.png)
+![](./docs/comunication-trello.png)
 
 
 
