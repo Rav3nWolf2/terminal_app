@@ -21,7 +21,7 @@ class TerminalApp
         @players[player].total_score += 1 if userinput == correct_answer
     end
     def run
-        puts "welcome to the FT quiz"
+        puts "welcome to the FTGM quiz"
         puts "test your popculture knowledge"
         puts "are you ready?"
         puts "what's your name?"

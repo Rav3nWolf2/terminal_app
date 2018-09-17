@@ -1,4 +1,4 @@
-# trivia_app
+# TRIVIA APP
 
 ### A pop culture themed trivia quiz made up of 20 questions with 4 topics: gaming, movies, television and music. 5 questions each topic displayed in a random order with various degrees of difficulty.
 
@@ -10,16 +10,23 @@
 
 # Description
 ## Purpose 
-The purpose of the app is to entertain the user and test their pop culture knoweldge. 
+The purpose of the app is to entertain the user and test their pop culture knoweldge. A pop culture themed trivia quiz made up of 20 questions with 4 topics: gaming, movies, television and music. 5 questions each topic displayed in a random order with various degrees of difficulty.
 ##Functionality
 
-# Instructions for use:
+#Instructions for use:
+1. User provides a name and presses enter to start.
+2. players then gets asked 20 questions at random.
+3. players options are a, b or c
+4. players answers the question buy typing in a, b or c
+5. then press enter to submit answer until all questions are answered.
+6. the quiz is finished when all questions are answered
+7. score is displayed then app is exited.
 
-Final app
+#Final app
 ![code for player and score](./docs/player-and-score.png)
 ![final questions in array](./docs/final-questions.png)
 ![terminal app](./docs/terminal_app.png)
-![output of score](./docs/out-put-score.png)
+![output of score](./docs/output-score.png)
 ![code for player and score](./docs/player-and-score.png)
 
 
@@ -86,7 +93,7 @@ Movies-Beth
 1.	Luke skywalker is from which franchise (starwars)
 2.	Who said “you’re a Wizard Harry”? (Hagrid)
 3.	Judy Garland starred as Dorothy Gale in which classic movie? (The wizard of oz)
-4.	What musical had a live! Tv special but was originally released in 1978 (Grease)
+4.	What musical had a live! Tv special but was originally released in 1978 (Grease) 
 5.	The first movie given the title “blockbuster”(hint 1975) ( Jaws)
 
 Tv- Beth
@@ -116,7 +123,9 @@ We settled on a Game briefly considering a hangman app and noughts and crosses a
 
 #design details CONT
 app user workflow 
+
 project timeline 
+
 # Trello 
 ![brainstorm in trello](./docs/trello-brainstorm.png)
 ![comments in trello](./docs/comunication-trello.png)
