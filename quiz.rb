@@ -3,10 +3,8 @@ require_relative "question"
 class Quiz
 
     attr_reader :questions
-    attr_accessor :total_score
     def initialize(filename='')
         @questions = []
-        @total_score = 0
     
         if filename.length > 0 
             #read questions from file
@@ -15,6 +13,8 @@ class Quiz
         end
     
     end
+    # For the MVP, only have one Quiz category, but could define other question
+    # methods for different categories, and have category passed to the initialize
     def set_default_questions
         @questions << Question.new("Luke Skywalker is from what franchise?", {a: "Star trek", b: "Star wars", c: "Trek wars"}, :b )
         @questions << Question.new("Who said?, you're a wizard Harry?", {a: "Dolores Umbride", b: "harry Potter", c: "Rubeus Hagrid"}, :c )
