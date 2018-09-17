@@ -6,6 +6,18 @@
 #### •	Beth Callanan
 #### •	Chrissy K
 
+# Github
+
+# Description
+## Purpose 
+The purpose of the app is to entertain the user and test their pop culture knoweldge. 
+##Functionality
+
+# Instructions for use:
+
+Final app
+
+#design details
 # Brainstorming
 ## Game ideas: 
 •	Hangman
@@ -58,8 +70,6 @@ The TFMG quiz
 
 A multiple choice quiz app that outputs 1 question with three possible answers A, B or C. 4 topics: film, Tv, gaming and music. To start, 3 questions (Testing: randomizing, scoring and output.) then add more questions 
 
- 
-
 •	Store all questions in a variable 
 •	Set score as 0 then += 1 for a correct answer
 •	Questions.length makes the total score 
@@ -81,21 +91,29 @@ Tv- Beth
 5.	Who played the 10th doctor in Doctor Who (David Tenant)
 
 Gaming-Chrissy
-1.	
-2.	
-3. 
-4.	
-5.
+1. Who sung Welcome to the jungle?	(GUNS and ROSES)
+2. Who sung these lyrics - Now we got problems, and I don't think we can solve them (Taylor Swift)
+3. Smells like Teen Spirt comes from which 90’s rock band? (Nirivana)
+4. Suga, Suga was a famous 2000’s hit by which artist? (Baby Bash)
+5. when was maroon 5’s first album released? (2002)
 
 Music-Chrissy
-1.	
-2.	
-3.	
-4.	
-5.	
+1.	From which game is Dr Neo Cortex from? (Crash Bandicoot)
+2.	Professor Oak is from which famous 90’s game?" (Pokemon)
+3.  Sub zero is from which 90’s fighting game? (Mortal Combat)	
+4.	Bowser, Wario and Luigi are from which famous game? (Mario Party)
+5.	which console came first? (Atari)
 
 
 ## Conclusion of brainstorming. 
 We settled on a Game briefly considering a hangman app and noughts and crosses and a trivia app but came to the understanding that these three concepts could get very complicated very quickly so out of the three we chose a trivia app because we could break it down into a simple concept and the possibility that we could use one standard code that we can repeat until all questions are answered. 
+
+#design details CONT
+app user workflow 
+project timeline 
+# Trello 
+    ![](docs/trello-brainstorm.png)
+    ![](docs/comunication-trello.png)
+
 
 
