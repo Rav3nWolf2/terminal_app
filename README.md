@@ -123,8 +123,10 @@ We settled on a Game briefly considering a hangman app and noughts and crosses a
 
 #design details CONT
 app user workflow 
+![user funtions](./docs/user.funtions.jpg)
 
 project timeline 
+![timeline](./docs/timeline.jpg)
 
 # Trello 
 ![brainstorm in trello](./docs/trello-brainstorm.png)
